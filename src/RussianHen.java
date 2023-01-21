@@ -8,7 +8,7 @@ public class RussianHen extends Hen{
 
     @Override
     public int getCountOfEggsPerMonth() {
-        return 30;
+        return getCount()*30;
     }
 
     @Override
