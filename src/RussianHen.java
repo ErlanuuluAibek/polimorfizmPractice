@@ -13,7 +13,6 @@ public class RussianHen extends Hen{
 
     @Override
     public void getDescription() {
-
         System.out.println("menin olkom "+getFrom()+" men bir aida ushuncha jumurtka tuuim "+getCountOfEggsPerMonth());
     }
 }
